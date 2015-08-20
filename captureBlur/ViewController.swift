@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         view.addSubview(bg)
         
         NSTimer.schedule(delay: 1) { timer in
-            let capturedImg: UIImage = self.view.screenShot().horizontalInversion().blurEffect(50)
+            let capturedImg: UIImage = self.view.screenShot().horizontalInversion()
             let secondVC = SecondViewController()
             secondVC.capturedImg = capturedImg
             secondVC.modalTransitionStyle = UIModalTransitionStyle.FlipHorizontal

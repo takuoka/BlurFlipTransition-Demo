@@ -14,7 +14,6 @@
 		B07DDF291B8567A70021446D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B07DDF271B8567A70021446D /* LaunchScreen.xib */; };
 		B07DDF351B8567A70021446D /* captureBlurTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07DDF341B8567A70021446D /* captureBlurTests.swift */; };
 		B07DDF3F1B856ACA0021446D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07DDF3E1B856ACA0021446D /* SecondViewController.swift */; };
-		B07DDF411B85704D0021446D /* UIImage+BlurEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07DDF401B85704D0021446D /* UIImage+BlurEffect.swift */; };
 		B07DDF431B8570810021446D /* NSTimerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07DDF421B8570810021446D /* NSTimerEx.swift */; };
 		B07DDF451B8570AD0021446D /* ScreenShot+Flip.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07DDF441B8570AD0021446D /* ScreenShot+Flip.swift */; };
 /* End PBXBuildFile section */
@@ -41,7 +40,6 @@
 		B07DDF331B8567A70021446D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B07DDF341B8567A70021446D /* captureBlurTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = captureBlurTests.swift; sourceTree = "<group>"; };
 		B07DDF3E1B856ACA0021446D /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		B07DDF401B85704D0021446D /* UIImage+BlurEffect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+BlurEffect.swift"; sourceTree = "<group>"; };
 		B07DDF421B8570810021446D /* NSTimerEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSTimerEx.swift; sourceTree = "<group>"; };
 		B07DDF441B8570AD0021446D /* ScreenShot+Flip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ScreenShot+Flip.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,10 +84,9 @@
 			isa = PBXGroup;
 			children = (
 				B07DDF1E1B8567A70021446D /* AppDelegate.swift */,
-				B07DDF201B8567A70021446D /* ViewController.swift */,
 				B07DDF421B8570810021446D /* NSTimerEx.swift */,
-				B07DDF401B85704D0021446D /* UIImage+BlurEffect.swift */,
 				B07DDF441B8570AD0021446D /* ScreenShot+Flip.swift */,
+				B07DDF201B8567A70021446D /* ViewController.swift */,
 				B07DDF3E1B856ACA0021446D /* SecondViewController.swift */,
 				B07DDF221B8567A70021446D /* Main.storyboard */,
 				B07DDF251B8567A70021446D /* Images.xcassets */,
@@ -225,7 +222,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B07DDF3F1B856ACA0021446D /* SecondViewController.swift in Sources */,
-				B07DDF411B85704D0021446D /* UIImage+BlurEffect.swift in Sources */,
 				B07DDF211B8567A70021446D /* ViewController.swift in Sources */,
 				B07DDF431B8570810021446D /* NSTimerEx.swift in Sources */,
 				B07DDF451B8570AD0021446D /* ScreenShot+Flip.swift in Sources */,
@@ -427,6 +423,7 @@
 				B07DDF3A1B8567A70021446D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B07DDF3B1B8567A70021446D /* Build configuration list for PBXNativeTarget "captureBlurTests" */ = {
 			isa = XCConfigurationList;
@@ -435,6 +432,7 @@
 				B07DDF3D1B8567A70021446D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
