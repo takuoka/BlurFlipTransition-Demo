@@ -12,14 +12,27 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let bg = UIImageView(image: UIImage(named: "ifttt"))
+        bg.frame = view.frame
+        view.addSubview(bg)
+        
+        NSTimer.schedule(delay: 1) { timer in
+            let capturedImg: UIImage = self.view.screenShot().horizontalInversion().blurEffect(50)
+            let secondVC = SecondViewController()
+            secondVC.capturedImg = capturedImg
+            secondVC.modalTransitionStyle = UIModalTransitionStyle.FlipHorizontal
+            self.presentViewController(secondVC, animated: true, completion: nil)
+        }
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
+
+
+
+
+
+
+
+
+
 
